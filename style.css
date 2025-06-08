@@ -26,11 +26,11 @@ body::before {
   content: "";
   position: fixed;
   z-index: -1;
-  top: 32px;    /* Same as body padding-top */
-  left: 32px;   /* Same as body padding-left (if any) */
-  right: 32px;  /* Same as body padding-right (if any) */
+  top: 32px; /* Same as body padding-top */
+  left: 32px; /* Same as body padding-left (if any) */
+  right: 32px; /* Same as body padding-right (if any) */
   bottom: 32px; /* Same as body padding-bottom */
-  background: url('images/fruella.jpg') center center/cover no-repeat;
+  background: url("images/fruella.jpg") center center/cover no-repeat;
   filter: blur(6px) brightness(0.9); /* Reduced blur */
   border-radius: 32px;
   opacity: 0.7;
@@ -58,11 +58,14 @@ body::before {
   height: auto;
   max-height: 60vh;
 }
-h1 {
-  text-align: center;
-  font-size: 3.2rem; /* Larger main heading */
-  margin-top: 20px;
-  color: #5a3e36; /* Dark brown tone from your palette */
+
+header h2 {
+  color: #a67c52;
+  font-size: 3.5rem; /* Larger section headings */
+  margin-bottom: 12px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 700; /* Make bold */
+  letter-spacing: 1px;
 }
 
 .text-box {
@@ -93,10 +96,10 @@ section {
 
 section h2 {
   color: #a67c52;
-  font-size: 2.2rem;      /* Larger section headings */
+  font-size: 3.5rem; /* Larger section headings */
   margin-bottom: 12px;
   font-family: "Great Vibes", cursive;
-  font-weight: 700;       /* Make bold */
+  font-weight: 700; /* Make bold */
   letter-spacing: 1px;
 }
 
@@ -126,7 +129,7 @@ header {
   padding: 28px 0 20px 0;
   background: rgba(255, 248, 239, 0.92); /* Soft light background */
   border-radius: 20px;
-  box-shadow: 0 6px 24px rgba(90, 62, 54, 0.10);
+  box-shadow: 0 6px 24px rgba(90, 62, 54, 0.1);
   max-width: 700px;
   width: 90vw;
   border: 1.5px solid #e2c9a0;
@@ -134,11 +137,11 @@ header {
 
 header h1 {
   color: #5a3e36;
-  font-size: 3.2rem; /* Larger main heading */
+  font-size: 5.2rem; /* Larger main heading */
   font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 10px;
-  text-shadow: 0 2px 8px #fff8ef, 0 1px 2px rgba(90,62,54,0.08);
+  text-shadow: 0 2px 8px #fff8ef, 0 1px 2px rgba(90, 62, 54, 0.08);
 }
 
 header p {
